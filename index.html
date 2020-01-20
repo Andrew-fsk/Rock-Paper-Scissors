@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="score"><span id="userScore">0</span> : <span id="compScore">0</span></h1>
+        <h2 class="choise">User - Computer</h2>
+        <h2 class="choise"><span id="user">User</span> - <span id="comp">Computer</span></h2>
+        <div class="buttons">
+            <button onclick="getUser('Rock')">Rock</button>
+            <button onclick="getUser('Paper')">Paper</button>
+            <button onclick="getUser('Scissors')">Scissors</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
